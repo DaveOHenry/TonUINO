@@ -2101,7 +2101,7 @@ void statusLedUpdate(uint8_t statusLedAction, uint8_t red, uint8_t green, uint8_
       case OFF: {
           statusLedUpdateHal(red, green, blue, 0);
           break;
-      }
+        }
       case SOLID: {
           statusLedFade = 255;
           statusLedUpdateHal(red, green, blue, 255);
